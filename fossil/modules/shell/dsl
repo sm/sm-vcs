@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+fossil_install()
+{
+  move_file fossil to "${install_path}/bin/fossil" mode 0755
+}
