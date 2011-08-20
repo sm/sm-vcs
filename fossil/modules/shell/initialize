@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-package_definition \
-  file "${package_name}-src-${package_version}.${archive_format}" \
-  dir "${package_name}-src-${package_version}"
-

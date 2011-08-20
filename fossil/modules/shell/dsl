@@ -1,4 +1,11 @@
-#!/usr/bin/env bash
+#!/bin/sh
+
+fossil_initialize()
+{
+package_definition \
+  file "${package_name}-src-${package_version}.${archive_format}" \
+  dir "${package_name}-src-${package_version}"
+}
 
 fossil_install()
 {
