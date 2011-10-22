@@ -1,4 +1,4 @@
-version=1.7.6.1
-base_url=http://kernel.org/pub/software/scm/git http://ftp5.gwdg.de/pub/linux/kernel.org/software/scm/git
+version=1.7.7
+base_url=https://github.com/gitster/git/tarball
 archive_format=tar.bz2
-package_dependencies=zlib
+package_dependencies=zlib curl
