@@ -7,5 +7,5 @@ git_prefetch()
 
 git_preconfigure()
 {
-  make configure
+  make configure >/dev/null
 }
