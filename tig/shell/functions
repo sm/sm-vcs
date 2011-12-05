@@ -1,8 +1,2 @@
+#!/bin/sh
 
-tig_prefetch()
-{
-  package_version="0.18"
-  base_url="http://pkgs.fedoraproject.org/repo/pkgs/tig/tig-0.18.tar.gz/4fa9e33c5daa76b6fed11e068405356f/tig-0.18.tar.gz"
-  package_file="tig-0.18.tar.gz"
-  package_dir="tig-0.18"
-}
