@@ -1,7 +1,11 @@
 #!/bin/sh
 
-git_initialize()
+git_prefetch()
 {
-  package_dependencies=(zlib)
+  package define url ${package_base_url}/v${package_version}
 }
 
+git_preconfigure()
+{
+  make configure >/dev/null
+}
