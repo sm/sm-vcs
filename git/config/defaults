@@ -1,4 +1,4 @@
 version=1.7.7.4
 base_url=https://github.com/gitster/git/tarball
 archive_format=tar.gz
-package_dependencies=zlib curl expat
+# package_dependencies=zlib curl expat

@@ -1,4 +1,8 @@
 #!/bin/sh
 
-install_template "git/.gitconfig" to "${HOME}/.gitconfig"
-install_template "git/.gitignore.user" to "${HOME}/.gitignore.user"
+template install "git/gitconfig" \
+  to "${HOME}/.gitconfig"
+
+template install "git/gitignore.user" \
+  to "${HOME}/.gitignore.user"
+
