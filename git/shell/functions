@@ -1,10 +1,5 @@
 #!/bin/sh
 
-git_prefetch()
-{
-  package define url ${package_base_url}/v${package_version}
-}
-
 git_preconfigure()
 {
   make configure >/dev/null
