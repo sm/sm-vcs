@@ -1,5 +1,5 @@
 version=1.9.0
 base_url=https://git-core.googlecode.com/files
 archive_format=tar.gz
-configure_flag_static=""
+configure_flag_static=--disable-shared
 # package_dependencies=zlib curl expat
